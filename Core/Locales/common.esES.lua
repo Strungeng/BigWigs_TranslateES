@@ -33,7 +33,7 @@ L.active = "Activo" -- When a boss becomes active, after speech finishes
 L.general = "General" -- General settings, i.e. things that apply to normal, heroic and mythic mode.
 L.absorb = "Absorber" -- Used for shield-like abilities that absorb damage or healing
 
-L.duration = "%s durante %s sec" -- Spell for 10 seconds
+L.duration = "%s durante %s seg" -- Spell for 10 seconds
 L.over = "%s terminado" -- Spell Over
 L.removed = "%s eliminado" -- Spell Removed
 L.removed_from = "%s eliminado de %s" -- Spell removed from Player
@@ -45,20 +45,20 @@ L.interrupted_by = "%s interrumpido por %s" -- Spell interrupted by Player
 L.no = "No %s" -- No Spell
 L.intermission = "Intermedio"
 L.percent = "%d%% - %s" -- 20% - Spell
-L.cancelled = "%s Cancelado" -- Spell Cancelled
+L.cancelled = "%s cancelado" -- Spell Cancelled
 
 -- Add related
-L.add_spawned = "Aparece Esbirro"
-L.spawned = "%s Apareció"
+L.add_spawned = "Aparece esbirro"
+L.spawned = "%s apareció"
 L.spawning = "%s aparece"
-L.next_add = "Siguiente Esbirro"
+L.next_add = "Siguiente esbirro"
 L.add_killed = "Esbirro muerto (%d/%d)"
 L.add_remaining = "Esbirro muerto, %d restantes"
 L.add = "Esbirro"
 L.adds = "Esbirros"
 L.big_add = "Esbirro grande" -- singular
-L.big_adds = "Esbirros grande" -- plural
-L.small_add = "Esbirro pequeños" -- singular
+L.big_adds = "Esbirros grandes" -- plural
+L.small_add = "Esbirro pequeño" -- singular
 L.small_adds = "Esbirros pequeños" -- plural
 
 -- Mob related
@@ -70,8 +70,8 @@ L.mob_remaining = "%s muerto, %d restantes"
 L.custom_start = "%s iniciado - %s en %d min"
 L.custom_start_s = "%s iniciado - %s en %d seg"
 L.custom_end = "%s entra en %s"
-L.custom_min = "%s en %d min"
-L.custom_sec = "%s en %d seg"
+L.custom_min = "%s en %d min" --minutes
+L.custom_sec = "%s en %d seg" --seconds
 
 L.focus_only = "|cffff0000Alertas sólo para objetivos en Foco.|r "
 L.trash = "Basura"
